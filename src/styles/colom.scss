@@ -1,0 +1,23 @@
+.blog-colom{
+    background-color: #f2f4f5;
+        .colom-ul{
+            padding-top:53px;
+            padding-bottom:48px;
+            width: 90%;
+            margin: 0 auto;
+            .colom-li{
+                margin: 0 auto;
+                padding: 1rem 0;
+                border-bottom: 1px dashed #ccc;
+                .colom-title{
+                    font-size: 1.3rem;
+                    color:#666666;
+                    margin-bottom: 0.6rem;
+                }
+                .colom-article{
+                    font-size: 1rem;
+                    color:#666666
+                }
+            }
+        }
+}

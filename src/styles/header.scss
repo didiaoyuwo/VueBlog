@@ -1,0 +1,25 @@
+.blog-header{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    .blog-nav{
+        .nav-ul{
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            .active{
+                columns: #5477b2!important;
+                border-bottom:0.3rem solid #5477b2;
+            }
+            .nav-li{
+                width: 23%;
+                color:#9e9a95;
+                text-align: center;
+                height: 3rem;
+                line-height: 3rem;
+            }
+        }
+    }   
+}

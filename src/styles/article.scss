@@ -1,0 +1,28 @@
+
+.blog-article{
+    width: 100%;
+    background-color: #f2f4f5;
+    padding-bottom:48px;
+    .article-ul{
+        .article-li{
+            width: 90%;
+            height: 6rem;            
+            margin: 0 auto;
+            padding:1rem 0; 
+            border-bottom: 1px dashed #ccc;
+            .article-title{
+                font-size: 1.3rem;
+                color:#666666;
+                margin-bottom: 0.6rem;
+            }
+            .article-content{
+                font-size: 1rem;
+                color:#666666;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                overflow: hidden;
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+.user-login{
+    background-color: #f2f4f5;
+    .user-info{
+        background-color: #9e9a95;
+        .pic-container{
+            padding-top:2rem;
+            margin-bottom:1rem;
+            .user-pis{
+                width: 4rem;
+                height: 4rem;
+                margin: 0 auto;
+                display: block;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+        .login-register{
+            display: flex;
+            justify-content: center;
+            color:#ffffff;
+        }
+        .attention-fans{
+            display: flex;
+            justify-content: space-around;
+            color:#ffffff;
+            padding-bottom:0.5rem;
+            .attention{
+                width: 50%;
+                font-size:1.2rem;
+                text-align: center;
+                .p-border{
+                    border-right: solid 1px #fff
+                }
+            }
+            .fans{
+                width: 50%;
+                font-size:1.2rem;
+                text-align: center
+            }
+        }
+    }
+    .blog-info{
+        .blog-ul{
+            .blog-li{
+                display: flex;
+                align-items: center;
+                border-top:1px solid #bcbbba;
+                border-bottom:1px solid #7b7c7c;
+                background-color: #fff;
+                height: 3rem;
+                img{
+                    display: block;
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    object-fit: contain;
+                    margin-left:5%
+                }
+                span{
+                    flex-grow:1;
+                    margin-left:2%
+                }
+                .count{
+                    display: flex;
+                    align-items: center;
+                    margin-right:3%;
+                    span{
+                        display: block;
+                        padding: 0 0.3rem;
+                    }
+                    img{
+                        display: block;
+                        width: 1rem;
+                        height: 1rem;
+                        object-fit: cover;
+                    }
+                }
+            }
+            #last-li{
+                border-bottom:none;
+            }
+        }
+    }
+}
