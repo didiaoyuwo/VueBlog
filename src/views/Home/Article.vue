@@ -17,10 +17,17 @@ export default {
   },
   methods: {
     jump (article, id) {
-      this.$store.dispatch('getAritcleContent', article)
-      setTimeout(() => {
+      // console.log(article)
+      new Promise((resolve, reject) => {
+        this.$store.dispatch('getAritcleContent', article)
+        resolve()
+      }).then(() => {
         this.$router.push({path: `/article/${id}`})
-      }, 200)
+      })
+      // this.$store.dispatch('getAritcleContent', article)
+      // setTimeout(() => {
+      //   this.$router.push({path: `/article/${id}`})
+      // }, 200)
     }
   },
   mounted () {

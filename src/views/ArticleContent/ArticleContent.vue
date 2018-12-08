@@ -48,8 +48,13 @@ export default {
       this.$router.go(-1)
     }
   },
+  watch: {
+    $route () {
+      this.articleContent = this.$store.state.articleContent
+    }
+  },
   mounted () {
-    this.articleContent = this.$store.getters.articleContent
+    this.articleContent = this.$store.state.articleContent
   }
 }
 </script>
