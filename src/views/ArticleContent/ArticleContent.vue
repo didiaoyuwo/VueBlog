@@ -50,7 +50,7 @@ export default {
   },
   watch: {
     $route () {
-      this.articleContent = this.$store.state.articleContent
+      this.articleContent = this.$store.getters.articleContent
     }
   },
   mounted () {
