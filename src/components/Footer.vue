@@ -10,6 +10,7 @@
             <li class="my-btn" @click="jump('userlogin')">
                 <img src="../../static/my.png" alt="" ref='user'>
             </li>
+            <li>我就是想来测试一下啊</li>
         </ul>
     </footer>
 </template>
