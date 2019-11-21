@@ -21,6 +21,7 @@
 # Build Setup
 
 运行环境
+测试一下
 
 *   node.js
 
